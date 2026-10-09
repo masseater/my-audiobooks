@@ -6,11 +6,6 @@
     "types": ["vite/client", "@cloudflare/workers-types"],
     "paths": {
       "#/*": ["./src/*"]
-    },
-    "plugins": [
-      {
-        "name": "@effect/language-service"
-      }
-    ]
+    }
   }
 }

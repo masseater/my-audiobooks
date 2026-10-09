@@ -1,6 +1,6 @@
 import { waitUntil } from "cloudflare:workers";
 import { Effect, Layer, ManagedRuntime } from "effect";
-import { Flusher, layerFlusher } from "effect/unstable/observability/OtlpExporter";
+import { Flusher, layerFlusher } from "effect/observability/OtlpExporter";
 
 import { featureFlagsLive } from "#/shared/flags/index.server";
 import { telemetryLive } from "#/shared/telemetry/index.server";
