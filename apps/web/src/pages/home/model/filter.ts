@@ -1,4 +1,4 @@
-import { make } from "effect/unstable/reactivity/Atom";
+import { make } from "effect/reactivity/Atom";
 
 type TodoFilter = "all" | "open" | "done";
 

@@ -1,5 +1,22 @@
 {
+  "$schema": "./node_modules/@effect/tsgo/schema.json",
   "compilerOptions": {
+    "plugins": [
+      {
+        "name": "@effect/language-service",
+        "allowedUnstableApis": [
+          "@effect/atom-react",
+          "@effect/platform-node",
+          "effect/FileSystem",
+          "effect/Path",
+          "effect/Stdio",
+          "effect/http/FetchHttpClient",
+          "effect/observability",
+          "effect/process",
+          "effect/reactivity/Atom"
+        ]
+      }
+    ],
     "target": "ES2023",
     "lib": ["ES2023", "DOM", "DOM.Iterable"],
     "module": "ESNext",
