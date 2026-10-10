@@ -32,9 +32,16 @@ dist-ssr
 # AI agent worktrees
 .claude/worktrees/
 
+# Agent skills restored from skills-lock.json
+.agents/skills/
+
 .nitro
 .tanstack
 .output
 .alchemy
 .fallow
 .jev-lint/baseline.json
+
+# Playwright CLI
+.playwright/
+.playwright-cli/
